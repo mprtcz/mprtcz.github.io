@@ -299,23 +299,27 @@ html, body {
 }
 
 .section__play-btn:hover {
-    background: lightgreen none;
+    background-color: lightgreen;
 }
 
-.section__play-btn .material-icons {
-    visibility: hidden;
-}
-
-.section__play-btn:hover .material-icons {
-    color: black;
-    visibility: visible;
-}
-
-.simplePicBrowserPicture {
-    background: url('https://sc-cdn.scaleengine.net/i/bd7435efa73646cb13cb9851bb93462e1.png');
+.projectPicture {
+    width: 100%;
     background-position: center !important;
     background-size: contain;
     background-repeat: no-repeat !important;
+}
+
+.section__play-btn:hover .projectPicture {
+    opacity:0.5;
+}
+
+.section__play-btn .my-icon {
+    position: absolute;
+    display: none;
+}
+
+.section__play-btn:hover .my-icon {
+    display: block;
 }
 
 img.grayscale:hover {
@@ -326,3 +330,6 @@ img.grayscale {
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
+.material-icons {
+    font-size: 80px;
+}
