@@ -233,7 +233,7 @@ html, body {
 }
 
 /*.mdl-demo .mdl-layout__tab-panel:not(#overview) {*/
-    /*background-color: white;*/
+/*background-color: white;*/
 /*}*/
 
 .mdl-demo #features section {
@@ -319,14 +319,22 @@ html, body {
 }
 
 img.grayscale:hover {
+    height: 100px;
+    width: 100px;
     -webkit-filter: grayscale(0%);
 }
 
 img.grayscale {
+    height: 100px;
+    width: 100px;
     -webkit-filter: grayscale(100%);
 }
 
 .material-icons {
     color: #005907;
     font-size: 80px;
+}
+
+.my-background-color {
+    background: -webkit-linear-gradient(top, #373737, #212121);
 }
