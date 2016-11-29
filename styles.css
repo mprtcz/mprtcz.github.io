@@ -64,8 +64,7 @@ html, body {
 }
 
 .mdl-demo main > .mdl-layout__tab-panel {
-    padding: 8px;
-    padding-top: 48px;
+    padding: 48px 8px 8px;
 }
 
 .mdl-demo .mdl-card {
@@ -125,7 +124,7 @@ html, body {
     z-index: 999;
 }
 
-.mdl-demo .mdl-layout__content section:not(:last-of-type) {
+.mdl-demo .mdl-layout__content section {
     position: relative;
     margin-bottom: 48px;
 }
@@ -153,10 +152,6 @@ html, body {
 
 .mdl-demo section > .section__play-btn {
     min-height: 200px;
-}
-
-.mdl-demo section > header > .material-icons {
-    font-size: 5rem;
 }
 
 .mdl-demo section > button {
@@ -196,8 +191,7 @@ html, body {
 
 .mdl-demo section .section__text h5 {
     font-size: inherit;
-    margin: 0;
-    margin-bottom: 0.5em;
+    margin: 0 0 0.5em;
 }
 
 .mdl-demo section .section__text a {
@@ -238,9 +232,9 @@ html, body {
     margin-bottom: 24px;
 }
 
-.mdl-demo .mdl-layout__tab-panel:not(#overview) {
-    background-color: white;
-}
+/*.mdl-demo .mdl-layout__tab-panel:not(#overview) {*/
+    /*background-color: white;*/
+/*}*/
 
 .mdl-demo #features section {
     margin-bottom: 72px;
@@ -310,15 +304,17 @@ html, body {
 }
 
 .section__play-btn:hover .projectPicture {
-    opacity:0.5;
+    opacity: 0.5;
 }
 
 .section__play-btn .my-icon {
-    position: absolute;
     display: none;
 }
 
 .section__play-btn:hover .my-icon {
+    position: absolute;
+    left: 8%;
+    bottom: 30%;
     display: block;
 }
 
@@ -331,5 +327,6 @@ img.grayscale {
 }
 
 .material-icons {
+    color: blue;
     font-size: 80px;
 }
