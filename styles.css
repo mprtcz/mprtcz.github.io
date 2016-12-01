@@ -46,7 +46,7 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__tab-bar {
-    padding-left: calc(50% - 480px);
+    padding-left: calc(50% - 430px);
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -133,8 +133,8 @@ html, body {
     margin-bottom: 48px;
 }
 
-.mdl-demo #features section.section--center {
-    max-width: 620px;
+.mdl-demo #projects section.section--center {
+    max-width: 860px;
 }
 
 .mdl-demo section > header {
@@ -230,18 +230,6 @@ html, body {
 
 .mdl-demo .mdl-card .mdl-card__supporting-text > h3:first-child {
     margin-bottom: 24px;
-}
-
-/*.mdl-demo .mdl-layout__tab-panel:not(#overview) {*/
-/*background-color: white;*/
-/*}*/
-
-.mdl-demo #features section {
-    margin-bottom: 72px;
-}
-
-.mdl-demo #features h4, #features h5 {
-    margin-bottom: 16px;
 }
 
 .mdl-demo .toc {
