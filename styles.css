@@ -219,7 +219,8 @@ html, body {
 }
 
 .mdl-demo section.section--footer {
-    padding: 64px 0;
+    padding: 30px 0;
+    child-align: middle;
     margin: 0 -8px -8px -8px;
 }
 
@@ -318,12 +319,13 @@ html, body {
 }
 
 img.grayscale:hover {
-    height: 100px;
-    width: 100px;
     -webkit-filter: grayscale(0%);
 }
 
 img.grayscale {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: 100px;
     width: 100px;
     -webkit-filter: grayscale(100%);
