@@ -21,7 +21,7 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__header-row {
-    padding-left: 20%;
+    padding-left: calc(50% - 430px);
 }
 
 .mdl-demo .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
@@ -46,8 +46,7 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__tab-bar {
-    padding: 0;
-    padding-left: 16%;
+    padding-left: calc(50% - 480px);
     box-sizing: border-box;
     height: 100%;
     width: 100%;
@@ -180,13 +179,13 @@ html, body {
 }
 
 .mdl-demo section .section__text {
+    padding: 8px;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding-top: 8px;
 }
 
 .mdl-demo section .section__text h5 {
