@@ -384,5 +384,9 @@ img.grayscale {
     background: -webkit-linear-gradient(-45deg,  #e743c9 0%,#e325b6 0%,#0044d8 100%) !important; /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  #e743c9 0%,#e325b6 0%,#0044d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e743c9', endColorstr='#0044d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
+.exit-sign {
+    width: 100px;
+    background-image: url("./images/exit2.gif");
 }

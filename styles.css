@@ -327,3 +327,7 @@ img.grayscale {
 .my-background-color {
     background: -webkit-linear-gradient(top, #373737, #212121);
 }
+
+.exit-sign {
+    visibility: hidden;
+}
