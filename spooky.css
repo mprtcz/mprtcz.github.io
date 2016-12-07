@@ -15,9 +15,10 @@
  */
 
 html, body, h4, h3 {
-    font-family: 'Comic Sans MS','Roboto', 'Helvetica', sans-serif;
+    font-family: 'Comic Sans MS', 'Roboto', 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
+    color: yellow;
 }
 
 .mdl-demo .mdl-layout__header-row {
@@ -53,7 +54,6 @@ html, body, h4, h3 {
 }
 
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab {
-    background-color: green;
     height: 64px;
     line-height: 64px;
 }
@@ -65,12 +65,18 @@ html, body, h4, h3 {
 
 .mdl-demo main > .mdl-layout__tab-panel {
     background-color: blue;
-    background-image: url("http://66.media.tumblr.com/5882c6c9333f86f0e89d025613ea1cde/tumblr_morqfbJ8WO1swgfzvo1_400.gif");
     padding: 48px 8px 8px;
 }
 
+.mdl-layout__tab-panel  {
+    background-image: url("./images/violskel.gif");
+}
+.mdl-layout__tab-panel#overview {
+    background-image: url("./images/skeldance.gif");
+}
+
 .mdl-demo .mdl-card {
-    background-image: url("http://www.netanimations.net/Animated-gif-stars-twinkling-in-night-sky.gif");
+    background-image: url("./images/starz.gif");
     background-color: black;
     text-shadow: #00b8d4;
     height: auto;
@@ -226,7 +232,7 @@ html, body, h4, h3 {
 }
 
 .mdl-demo section.section--footer {
-    background-image: url("http://i.imgur.com/wBLaQ5W.gif");
+    background-image: url("./images/violskel.gif");
     background-position: right;
     background-size: 15%;
     padding: 30px 0;
@@ -275,7 +281,7 @@ html, body, h4, h3 {
 
 /* ============================================================ */
 .profile-pic {
-    background: url('https://sc-cdn.scaleengine.net/i/963e3a9fd4f5672077fa8f2de6c87f7f2.png');
+    background: url('./images/ava.png');
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: contain;
@@ -336,12 +342,47 @@ img.grayscale {
 }
 
 .my-background-color {
-    background-image: url("https://66.media.tumblr.com/d39a557c9aaac83e8575720f6de39270/tumblr_njvwjp9Zde1txe8e9o1_250.gif");
+    background-image: url("./images/trumpetskel.gif");
     background-size: 18%;
     background-color: black;
-    //background: -webkit-linear-gradient(top, #373737, #212121);
 }
 
 .mdl-color--primary-dark {
-    background-color: green;
+    background-color: #007E7F !important;
+}
+
+.mdl-button {
+    letter-spacing: -1px;
+    font-family: "Comic Sans MS";
+}
+
+.mdl-demo .mdl-card__actions a {
+    color: red;
+    margin: 0;
+}
+
+.mdl-color-text--grey-700 {
+    color : white !important;
+}
+
+.mdl-cell li {
+    color: white;
+    text-decoration: underline;
+}
+
+.mdl-cell--4-col {
+    color: green;
+}
+
+.section--footer {
+    background-image: url("./images/violskel.gif") ;
+}
+
+.mdl-color--white {
+    background: #e743c9; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #e743c9 0%, #e325b6 0%, #0044d8 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #e743c9 0%,#e325b6 0%,#0044d8 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #e743c9 0%,#e325b6 0%,#0044d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e743c9', endColorstr='#0044d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
