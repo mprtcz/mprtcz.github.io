@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-html, body {
-    font-family: 'Roboto', 'Helvetica', sans-serif;
+html, body, h4, h3 {
+    font-family: 'Comic Sans MS','Roboto', 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -53,6 +53,7 @@ html, body {
 }
 
 .mdl-demo .mdl-layout__tab-bar .mdl-layout__tab {
+    background-color: green;
     height: 64px;
     line-height: 64px;
 }
@@ -63,12 +64,15 @@ html, body {
 }
 
 .mdl-demo main > .mdl-layout__tab-panel {
-
+    background-color: blue;
     background-image: url("http://66.media.tumblr.com/5882c6c9333f86f0e89d025613ea1cde/tumblr_morqfbJ8WO1swgfzvo1_400.gif");
     padding: 48px 8px 8px;
 }
 
 .mdl-demo .mdl-card {
+    background-image: url("http://www.netanimations.net/Animated-gif-stars-twinkling-in-night-sky.gif");
+    background-color: black;
+    text-shadow: #00b8d4;
     height: auto;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -336,4 +340,8 @@ img.grayscale {
     background-size: 18%;
     background-color: black;
     //background: -webkit-linear-gradient(top, #373737, #212121);
+}
+
+.mdl-color--primary-dark {
+    background-color: green;
 }
