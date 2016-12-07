@@ -64,7 +64,7 @@ html, body, h4, h3 {
 }
 
 .mdl-demo main > .mdl-layout__tab-panel {
-    background-color: blue;
+    background-color: #007E7F !important;
     padding: 48px 8px 8px;
 }
 
@@ -348,7 +348,7 @@ img.grayscale {
 }
 
 .mdl-color--primary-dark {
-    background-color: #007E7F !important;
+    background-color: blue !important;
 }
 
 .mdl-button {
@@ -389,4 +389,16 @@ img.grayscale {
 .exit-sign {
     width: 100px;
     background-image: url("./images/exit2.gif");
+}
+
+.mdl-button--raised {
+    background-image: url("./images/firewk1.gif") !important;
+    color: #00acc1 !important;
+}
+
+.mdl-mega-footer {
+    background-image: url("./images/flames.jpg");
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
 }
