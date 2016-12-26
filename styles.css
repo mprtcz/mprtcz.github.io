@@ -284,6 +284,10 @@ html, body {
     background-color: lightgreen;
 }
 
+.unfinished:hover {
+    background-color: lightblue !important;
+}
+
 .projectPicture {
     width: 100%;
     background-position: center !important;
